@@ -1,0 +1,113 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  h2 {
+    color: #666;
+    font-weight: 700;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post-form,
+  .post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-form textarea {
+    width: 100%;
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .post-form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-form-actions input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .post-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .post .date {
+    color: #999;
+    font-size: 14px;
+  }
+  
+  .post-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .post-actions svg:hover {
+    color: #333;
+  }
+  
+  .post {
+    position: relative;
+  }
